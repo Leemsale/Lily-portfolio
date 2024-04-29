@@ -1,0 +1,197 @@
+body {
+    background-color: rgb(21, 63, 17);
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+h1 {
+    font-family: "Platypi", serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.about p {
+    font-style: italic;
+    text-align: justify;
+    padding: 15px;
+    font-size: 1.2rem;
+}
+
+img {
+    display: block;
+    height: 400px;
+}
+
+.products div {
+    border: 5px solid rgb(89, 129, 58);
+    background-color: rgb(215, 238, 215);
+    border-radius: 10px;
+    margin: 20px;
+    flex: 0 1 auto;
+    box-sizing: border-box;
+}
+
+.view {
+    background-color:rgb(166, 206, 162);
+    border: 3px solid rgb(89, 129, 58);
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px 0px 20px 100px;
+    font-weight: bold;
+}
+
+.ninini {
+    font-size: 3rem;
+}
+
+.kuhusu {
+    font-size: 2rem;
+    font-family: "Slabo 27px", serif;
+}
+
+ul {
+    font-size: 1.5rem;
+}
+
+.faida {
+    font-weight: bolder;
+    font-style: italic;
+    color: yellow;
+}
+
+.details {
+    background-color: rgb(67, 101, 10);
+    color: white;
+}
+
+.details footer {
+    text-align: center;
+}
+
+.left {
+    font-size: 1.5rem;
+    font-weight: bold;
+    float: left;
+}
+
+.right {
+    font-size: 1.5rem;
+    font-weight: bold;
+    float: right;
+}
+
+footer button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 7px;
+    background-color: rgb(187, 221, 39);
+}
+
+@media (max-width: 680px) {
+    .products {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid; */
+    }
+
+    .products div {
+        border: 5px solid rgb(89, 129, 58);
+        background-color: rgb(215, 238, 215);
+        border-radius: 20px;
+        margin: 2px;
+        flex: 0 1 auto;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-family: "Platypi", serif;
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    img {
+        display: block;
+        height: 300px;
+    }
+
+    .about p {
+        font-style: italic;
+        text-align: justify;
+        padding: 5px;
+        font-size: 1rem;
+    }
+
+    .view {
+        background-color:rgb(166, 206, 162);
+        border: 3px solid rgb(89, 129, 58);
+        border-radius: 50px;
+        padding: 10px;
+        margin: 10px 0px 20px 65px;
+        font-weight: bold;
+    }
+    
+    .ninini {
+        font-size: 3rem;
+    }
+    
+    .kuhusu {
+        font-size: 2rem;
+        font-family: "Slabo 27px", serif;
+    }
+    
+    ul {
+        font-size: 1.5rem;
+    }
+    
+    .faida {
+        font-weight: bolder;
+        font-style: italic;
+        color: yellow;
+    }
+    
+    .details {
+        background-color: rgb(67, 101, 10);
+        color: white;
+    }
+    
+    .details footer {
+        font-size: 2rem;
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    .left {
+        font-size: 1rem;
+        font-weight: bold;
+        clear: both;
+        margin-left: 30%;
+        margin-top: 10px;
+    }
+    
+    .right {
+        font-size: 1rem;
+        font-weight: bold;
+        clear: both;
+    }
+
+    .footer-wrapper {
+        display: flex;
+        /* border: 2px solid white; */
+        justify-content: center;
+        align-items: center;
+    }
+  }
